@@ -1,0 +1,23 @@
+*{padding: 0;margin: 0;}
+
+/*background = #E82C0B*/
+
+body{
+	background-color: #E82C0B;
+	text-align: center;
+	font-family: arial;
+	color: white;
+}
+#mainTitle{
+	height: 50px;
+	margin-bottom: 30px;
+}
+
+#mainTitle h1{
+	font-size: 2.5em;
+}
+
+#frase{
+	font-size: 1.7em;
+	margin-bottom: 20px;
+}

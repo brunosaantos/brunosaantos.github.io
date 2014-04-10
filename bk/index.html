@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app>
+	<head>
+    	
+    	<script src="scripts/jquery.js"></script>
+    	<script src="scripts/angular.min.js"></script>
+    	<script src="scripts/controllers.js"></script>
+
+
+    	<link rel="stylesheet" href="style.css">
+  	</head>
+  	<body ng-controller="frasesCtrl">
+  		
+  		<div id="mainTitle"><h1>Envie Sua Pergunta para o Burger King</h1></div>
+    	<div id="frase">{{ frases[random] }}</div>
+    	<div id="twitterButton">
+    		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://SITEEXEMPLO" data-text="Mensagem para twitatar" data-via="viaUSER" data-lang="pt" data-size="large" data-related="recommendUSER" data-hashtags="hashtag">Tweetar</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    	</div>
+
+  	</body>
+</html>
+
